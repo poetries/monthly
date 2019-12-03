@@ -18,6 +18,7 @@ pageClass: custom-code-highlight
 - [TypeScript 入门教程](https://github.com/xcatliu/typescript-tutorial/blob/master/README.md)
 - [前端进阶积累](http://obkoro1.com/web_accumulate/)
 - [JS是如何工作系列](https://github.com/qq449245884/xiaozhi)
+- [冴羽的博客系列](https://github.com/mqyqingfeng/Blog)
 
 **面试手册**
 
