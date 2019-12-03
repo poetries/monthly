@@ -29,6 +29,10 @@ module.exports = ctx => ({
     docsDir: 'docs',
     editLinks: false,
     editLinkText: '帮助我们改善此页面！',
+    algolia: {
+      apiKey: '8c8a7cb8b23131c1282654084a8ca10f',
+      indexName: 'Monthly'
+    },
     locales: {
       '/': {
         editLinkText: '在 GitHub 上编辑此页',
