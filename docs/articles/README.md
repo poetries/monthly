@@ -24,3 +24,7 @@ pageClass: custom-code-highlight
 **面试手册**
 
 - [饿了么Node面试](https://elemefe.github.io/node-interview/#/)
+
+**编码规范**
+
+- [HTML/CSS/JS/React/图标库/Less/模块加载等](https://github.com/ecomfe/spec)
