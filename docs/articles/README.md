@@ -19,6 +19,8 @@ pageClass: custom-code-highlight
 - [前端进阶积累](http://obkoro1.com/web_accumulate/)
 - [JS是如何工作系列](https://github.com/qq449245884/xiaozhi)
 - [冴羽的博客系列](https://github.com/mqyqingfeng/Blog)
+- [系统性学习，打造完善的知识体系](http://www.conardli.top/blog/article/)
+- [Serverless 应用开发指南](http://serverless.ink/#serverless-%E6%9E%B6%E6%9E%84%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97)
 
 **面试手册**
 
