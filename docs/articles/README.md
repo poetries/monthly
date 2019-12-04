@@ -28,6 +28,7 @@ pageClass: custom-code-highlight
 - [大前端面试宝典 - 图解前端](https://lucifer.ren/fe-interview/#/?id=hr)
 - [技术面试必备基础知识](https://github.com/CyC2018/CS-Notes)
 - [前端面试之道](https://yuchengkai.cn/docs/frontend/)
+- [Node.js面试题，侧重后端应用与对Node核心的理解 ](https://github.com/poetries/node-interview-questions)
 
 **编码规范**
 
