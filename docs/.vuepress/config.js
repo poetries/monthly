@@ -25,6 +25,7 @@ module.exports = ctx => ({
   themeConfig: {
     repo: 'poetries/monthly',
     lastUpdated: 'Last Updated',
+    smoothScroll: true,
     docsBranch: 'master',
     docsDir: 'docs',
     editLinks: false,
@@ -75,7 +76,7 @@ module.exports = ctx => ({
 
 function renderSiderBar() {
   return ([
-    ["/articles/", "前言"],
+    ["/articles/", "首页"],
     {
       title: "2019",
       collapsable: false,
