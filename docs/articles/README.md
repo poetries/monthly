@@ -11,6 +11,7 @@ pageClass: custom-code-highlight
 
 **优秀资源荟萃**
 
+- [ES6入门](http://es6.ruanyifeng.com/)
 - [JavaScript 标准参考教程](http://javascript.ruanyifeng.com/grammar/basic.html#toc0)
 - [JavaScript 教程 - ruanyfeng](https://wangdoc.com/javascript/)
 - [TypeScript使用手册](https://github.com/zhongsp/TypeScript)
