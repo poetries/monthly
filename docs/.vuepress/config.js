@@ -1,5 +1,5 @@
 const { fs, path } = require('@vuepress/shared-utils')
-const readFileList = require("../../scripts/build.js");
+const themeConfig = require('./themeConfig')
 
 module.exports = ctx => ({
   base:'/monthly/',
@@ -22,28 +22,7 @@ module.exports = ctx => ({
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style',  }]
   ],
-  themeConfig: {
-    repo: 'poetries/monthly',
-    lastUpdated: 'Last Updated',
-    smoothScroll: true,
-    docsBranch: 'master',
-    docsDir: 'docs',
-    editLinks: false,
-    editLinkText: '帮助我们改善此页面！',
-    algolia: {
-      apiKey: '8c8a7cb8b23131c1282654084a8ca10f',
-      indexName: 'Monthly'
-    },
-    locales: {
-      '/': {
-        editLinkText: '在 GitHub 上编辑此页',
-        // nav: require('./nav/zh'),
-        sidebar: {
-          '/articles/': renderSiderBar()
-        }
-      }
-    }
-  },
+  themeConfig,
   plugins: [
     ['@vuepress/back-to-top', true],
     ['@vuepress/pwa', {
@@ -71,16 +50,17 @@ module.exports = ctx => ({
   ],
   extraWatchFiles: [
     '.vuepress/nav/zh.js',
-  ]
+  ],
+  markdown: {
+    // markdown-it-anchor 的选项
+    anchor: { permalink: true },
+    // markdown-it-toc 的选项
+    toc: { includeLevel: [1, 2] },
+    config: md => {
+      // 使用更多的 markdown-it 插件!
+      md.use(require('markdown-it-task-checkbox'))
+    }
+  }
 })
 
-function renderSiderBar() {
-  return ([
-    ["/articles/", "首页"],
-    {
-      title: "2019",
-      collapsable: false,
-      children: readFileList('2019'),
-    },
-])
-}
+
