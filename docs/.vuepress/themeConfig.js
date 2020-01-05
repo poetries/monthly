@@ -29,9 +29,14 @@ function renderSiderBar() {
   return ([
     ["/articles/", "首页"],
     {
+      title: "2020",
+      collapsable: false,
+      children: readFileList('2020'),
+    },
+    {
       title: "2019",
       collapsable: false,
       children: readFileList('2019'),
-    },
+     },
 ])
 }
