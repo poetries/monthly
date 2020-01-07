@@ -23,6 +23,7 @@
 - [Serverless 应用开发指南](http://serverless.ink/#serverless-%E6%9E%B6%E6%9E%84%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97)
 - [深入理解javascript原型和闭包系列](https://www.cnblogs.com/wangfupeng1988/p/4001284.html)
 - [逐行剖析 Vue.js 源码](https://nlrx-wjc.github.io/Learn-Vue-Source-Code/start/)
+- [计算机速成课 | Crash Course 字幕组 (全40集 2018-5-1 精校完成)](https://github.com/1c7/Crash-Course-Computer-Science-Chinese?utm_source=gold_browser_extension)
 
 ### 算法题
 ---
