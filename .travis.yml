@@ -16,6 +16,7 @@ script:
 after_script:
   - cd  ./docs/.vuepress/dist
   - git init
+  - git remote add origin https://github.com/poetries/monthly.git
   - git config user.name "poetries"
   - git config user.email "jingguanliuye@gmail.com"
   - git add -A
