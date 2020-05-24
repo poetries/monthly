@@ -1,5 +1,6 @@
 language: node_js
-node_js: stable
+node_js: 
+  - 10.14.1
 
 # S: Build Lifecycle
 install:
@@ -18,7 +19,7 @@ after_script:
   - git init
   - git config user.name "poetries"
   - git config user.email "jingguanliuye@gmail.com"
-  - git add -A
+  - git add .
   - git commit -m "Update docs"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
 # E: Build LifeCycle
