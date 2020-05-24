@@ -16,12 +16,11 @@ script:
 after_script:
   - cd  ./docs/.vuepress/dist
   - git init
-  - git remote add origin https://github.com/poetries/monthly.git
   - git config user.name "poetries"
   - git config user.email "jingguanliuye@gmail.com"
   - git add -A
   - git commit -m "Update docs"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" origin master:gh-pages
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
 # E: Build LifeCycle
 
 branches:
