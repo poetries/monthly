@@ -36,13 +36,7 @@
 ### 面试手册
 ---
 
-- [前端面试手册整理](http://blog.poetries.top/FE-Interview-Questions)
-- [饿了么Node面试](https://elemefe.github.io/node-interview/#/)
-- [大前端面试宝典 - 图解前端](https://lucifer.ren/fe-interview/#/?id=hr)
-- [技术面试必备基础知识](https://github.com/CyC2018/CS-Notes)
-- [前端面试之道](https://yuchengkai.cn/docs/frontend/)
-- [Node.js面试题，侧重后端应用与对Node核心的理解 ](https://github.com/poetries/node-interview-questions)
-- [前端面试与进阶指南](https://www.cxymsg.com/guide/#%E6%A8%A1%E5%9D%97%E6%A6%82%E8%A7%88)
+- [前端面试宝典](https://poetries1.gitee.io/fe-interview)
 
 ### 编码规范
 ---
